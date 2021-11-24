@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+.container {
+  font-family: 'outfit';
+  overflow: hidden;
+  display: -ms-grid;
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  place-items: center;
+  background-color: #0d192b;
+}
+
+.card {
+  width: 375px;
+  height: 80%;
+  background-color: #14253d;
+  -webkit-box-shadow: 1px 5px 12px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 1px 5px 12px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 20px 20px;
+}
+
+.card :hover {
+  cursor: pointer;
+}
+
+.card .image {
+  width: 100%;
+  height: 50%;
+  position: relative;
+}
+
+.card .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+
+.card .image .box {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(0, 255, 255, 0.371);
+  position: absolute;
+  top: 0;
+}
+
+.card .image .box img {
+  width: 30px;
+  height: 30px;
+  opacity: 1 !important;
+}
+
+.card .text-group {
+  font-size: 12px;
+}
+
+.card .text-group .title {
+  color: white;
+  font-weight: 600;
+}
+
+.card .text-group .para {
+  font-size: 18px;
+  font-weight: 300;
+  color: #8bacda;
+}
+
+.card .ratings {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+.card .ratings .currency {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card .ratings .currency img {
+  margin-right: 10px;
+}
+
+.card .ratings .currency span {
+  color: #00fff7;
+  font-weight: 600;
+}
+
+.card .ratings .time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card .ratings .time img {
+  margin-right: 10px;
+}
+
+.card .ratings .time span {
+  color: #8bacda;
+  font-weight: 400;
+}
+
+.hr_line {
+  height: .2px;
+  border: none;
+  background-color: #8bacda;
+  margin-bottom: 20px;
+}
+
+.profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.profile .profile_img {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}
+
+.profile .profile_img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.profile .profile_text p {
+  color: #8bacda;
+}
+
+.profile .profile_text p b {
+  font-style: italic;
+}
+/*# sourceMappingURL=style.css.map */

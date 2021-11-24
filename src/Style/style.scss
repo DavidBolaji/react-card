@@ -1,0 +1,133 @@
+@import "../Variable/variable";
+
+
+
+.container {
+    font-family: 'outfit';
+    overflow: hidden;
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    place-items: center;
+    background-color: $bgBlue;
+}
+
+.card {
+    width: 375px;
+    height: 80%;
+    background-color: $cardBlue;
+    box-shadow: 1px 5px 12px 20px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    padding: 20px 20px;
+    :hover{
+        cursor: pointer;
+    }
+    .image {
+        width: 100%;
+        height: 50%;
+        position: relative;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .box {
+            width: 100%;
+            height:  100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(0, 255, 255, 0.371);
+            position: absolute;
+            top: 0;
+            img {
+                width: 30px;
+                height: 30px;
+                opacity: 1 !important;
+            }
+        }
+    }
+    .text-group {
+        font-size: 12px;
+        .title {
+            color: $text;
+            font-weight: 600;
+        }
+        .para {
+            font-size: 18px;
+            font-weight: 300;
+            color: $blueColor;
+        }
+    }
+    .ratings {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+
+        
+        .currency {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            img{
+                margin-right: 10px;
+            }
+            span {
+                color: $cyanColor;
+                font-weight: 600;
+            }
+        }
+
+        .time {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            img{
+                margin-right: 10px;
+            }
+            span {
+                color: $blueColor;
+                font-weight: 400;
+            }
+        }
+
+    }
+}
+
+.hr_line {
+    height: .2px;
+    border: none;
+    background-color: $blueColor;
+    margin-bottom: 20px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .profile_img {
+        width: 40px;
+        height: 40px;
+        margin-right: 20px;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border: 1px solid $text;
+            border-radius: 50%;
+        }
+    }
+    .profile_text {
+        p {
+            color: $blueColor;
+            b {
+                font-style: italic;
+                
+            }
+        }
+        
+    }
+}
