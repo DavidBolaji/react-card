@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-card/static/css/main.2389639e.chunk.css",
+    "main.js": "/react-card/static/js/main.fd6828b0.chunk.js",
+    "main.js.map": "/react-card/static/js/main.fd6828b0.chunk.js.map",
+    "runtime-main.js": "/react-card/static/js/runtime-main.5d071896.js",
+    "runtime-main.js.map": "/react-card/static/js/runtime-main.5d071896.js.map",
+    "static/js/2.b1a8d38f.chunk.js": "/react-card/static/js/2.b1a8d38f.chunk.js",
+    "static/js/2.b1a8d38f.chunk.js.map": "/react-card/static/js/2.b1a8d38f.chunk.js.map",
+    "static/js/3.1af9a351.chunk.js": "/react-card/static/js/3.1af9a351.chunk.js",
+    "static/js/3.1af9a351.chunk.js.map": "/react-card/static/js/3.1af9a351.chunk.js.map",
+    "index.html": "/react-card/index.html",
+    "static/css/main.2389639e.chunk.css.map": "/react-card/static/css/main.2389639e.chunk.css.map",
+    "static/js/2.b1a8d38f.chunk.js.LICENSE.txt": "/react-card/static/js/2.b1a8d38f.chunk.js.LICENSE.txt",
+    "static/media/icon-clock.991a6522.svg": "/react-card/static/media/icon-clock.991a6522.svg",
+    "static/media/icon-ethereum.5221f332.svg": "/react-card/static/media/icon-ethereum.5221f332.svg",
+    "static/media/icon-view.fedac551.svg": "/react-card/static/media/icon-view.fedac551.svg",
+    "static/media/image-equilibrium.88bdbc91.jpg": "/react-card/static/media/image-equilibrium.88bdbc91.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5d071896.js",
+    "static/js/2.b1a8d38f.chunk.js",
+    "static/css/main.2389639e.chunk.css",
+    "static/js/main.fd6828b0.chunk.js"
+  ]
+}
