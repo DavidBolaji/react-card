@@ -4,7 +4,7 @@
 
 .container {
     font-family: 'outfit';
-    overflow: hidden;
+    overflow-x: hidden;
     display: grid;
     width: 100vw;
     height: 100vh;
@@ -14,7 +14,7 @@
 
 .card {
     width: 375px;
-    height: 80%;
+    height: 500px;
     background-color: $cardBlue;
     box-shadow: 1px 5px 12px 20px rgba(0,0,0,0.2);
     border-radius: 10px;

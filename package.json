@@ -1,6 +1,6 @@
 {
-  "name": "card-front-end-mentor",
-  "homepage": "https://DavidBolaji.github.io/card-front-end-mentor",
+  "name": "react-card",
+  "homepage": "https://DavidBolaji.github.io/react-card",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
