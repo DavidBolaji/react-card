@@ -1,7 +1,7 @@
 import React, { useState} from 'react';
 import '../../Style/style.css';
 import Equilibrum from '../../Assets/images/image-equilibrium.jpg';
-import Avatar from '../../Assets/images/image-avatar.png';
+import Avatar from '../../Assets/images/crop.jpg';
 import Eth from '../../Assets/images/icon-ethereum.svg';
 import Clock from '../../Assets/images/icon-clock.svg';
 import View from '../../Assets/images/icon-view.svg';
